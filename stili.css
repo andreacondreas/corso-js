@@ -1,0 +1,93 @@
+*{box-sizing: border-box;}
+body{
+    margin:0; 
+    overflow: auto;
+}
+
+
+.parallax{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;    
+    /*background-position: center 100%;*/
+    background-position-x:center;
+    background-position-y:100%; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax0{
+    background-image: url(../img/parallax0.png);
+}
+
+#parallax1{
+    background-image: url(../img/parallax1.png);
+}
+
+#parallax2{
+    background-image: url(../img/parallax2.png);
+}
+
+#parallax3{
+    background-image: url(../img/parallax3.png);
+}
+
+#parallax4{
+    background-image: url(../img/parallax4.png);
+}
+
+#parallax5{
+    background-image: url(../img/parallax5.png);
+}
+
+#parallax6{
+    background-image: url(../img/parallax6.png);
+}
+
+#parallax7{
+    background-image: url(../img/parallax7.png);
+}
+
+#parallax8{
+    background-image: url(../img/parallax8.png);
+}
+
+
+main{
+    position: absolute;
+    top:100%;
+    width: 100%;
+    min-height: 100%;
+    background: #210002;
+    color:#ffaf00;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.7em;
+    /*padding: 100px 0;*/
+}
+
+.contenuto{
+    max-width: 1000px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+
+
+
+.boxIFrame{
+    position: relative;
+    padding-top:56.25%;
+}
+
+ iframe{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top:0;
+     left:0;
+     border:0;    
+}
+
